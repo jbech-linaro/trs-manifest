@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="gitlab"   fetch="https://gitlab.com" />
+        <remote name="github"   fetch="https://github.com" />
+        <default remote="gitlab" revision="main" />
+
+        <!-- Linaro gits -->
+        <project path="meta-ewaol-machine"  name="Linaro/ewaol/meta-ewaol-machine.git"  revision="8813559a00a5fa6a2447e37468cf32fbfebe5ddd" />
+        <project path="meta-ts"             name="Linaro/trustedsubstrate/meta-ts.git"  revision="0fed61d765215679af522af6f34dc7e04403afc4" />
+	<project path="trs"                 name="Linaro/trs.git"                       revision="1b1bc2167a3097cb0640b556f4b4419005273cc5"  remote="github" />
+
+
+</manifest>
